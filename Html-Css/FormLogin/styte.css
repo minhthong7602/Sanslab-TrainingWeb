@@ -1,0 +1,10 @@
+.form-container {
+  margin: auto;
+  margin-top: 15%;
+  width: 500px;
+}
+
+.login-form {
+  background: #f2f2f2;
+  padding: 27px;
+}
