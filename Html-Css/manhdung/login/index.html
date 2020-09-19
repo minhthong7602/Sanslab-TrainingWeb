@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <title>VALIDATE FORM</title>
+
+ <link rel="stylesheet" href="../login/style.css">
+
+</head>
+
+<body>
+<script src='../login/script.js'></script>
+  <div id="frame">
+    <table>
+        <form name="flogin" method="post" action=""
+        onsubmit="return validate()">
+            <tr>
+                <td align="left" class="content-sm">Username: </td>
+            </tr>
+            <tr>
+                <td align="left" class="input">
+                    <input type="text" name="USERNAME" id="USERNAME" size="25" maxlength="100" class="textbox" />
+                </td>
+            </tr>
+            <tr>
+                <td align="left" class="content-sm"> password:
+                </td>
+            </tr>
+            <tr>
+                <td align="left" class="input">
+                <input type="password" name="PASSWORD" id="PASSWORD" size="25" maxlength="8" class="textbox" />
+                 </td>
+            </tr>
+            <tr>
+                 <td align="left" class="text_normal" valign="top"><br />
+                <input type="submit" style="width:80px" name="Signin" value="dang nhap" class="button" />
+                <input type="reset" name="reset" value="Nhap lai" class="button" /></td>
+            </tr>
+        </form>
+    </table>
+
+  </div>
+
+
+</body>
+
+</html>
